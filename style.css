@@ -1,103 +1,94 @@
 header {
+  background-color: #1a1a1a;
   padding-top: 15px;
 }
-
 header .imgbox {
   padding: 8px 0;
 }
-
 header .imgbox img {
   height: 50px;
   width: 200px;
 }
-
 header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-decoration: none;
   padding: 30px 45px;
 }
-
 header ul a {
   text-decoration: none;
 }
-
 header ul a li {
+  cursor: pointer;
   text-transform: capitalize;
   color: white;
   padding-right: 75px;
   font-size: 18px;
   list-style-type: none;
 }
-
 header ul .icon {
   padding-right: 75px;
   font-size: 18px;
   color: white;
 }
+header ul .icon i {
+  cursor: pointer;
+}
 
-.home .book {
+#home {
+  height: 530px;
+  background-color: #1a1a1a;
+}
+#home .book {
   width: 85%;
   height: 27%;
   float: right;
   background: #f8ca11;
-  margin-top: 50px;
+  margin-top: 15px;
   font-size: 40px;
   color: #fbfaf6;
   text-align: center;
 }
-
-.home .book h1 {
+#home .book h1 {
   font-size: 40px;
   margin-top: 20px;
 }
-
-.home .book h2 {
+#home .book h2 {
   color: black;
   letter-spacing: 2px;
   font-size: 40px;
 }
-
-.home .imgbox {
+#home .imgbox {
   width: 100%;
   float: right;
-  margin-top: 50px;
+  margin-top: 30px;
 }
-
-.home .imgbox img {
-  width: 550px;
+#home .imgbox img {
+  width: 545px;
   height: 320px;
 }
-
-.home .textbox {
+#home .textbox {
   font-size: 26px;
 }
-
-.home .textbox h3 {
+#home .textbox h3 {
   color: white;
   font-size: 26px;
   text-align: center;
-  padding: 40px 0 15px 0;
+  padding: 10px 0 15px 0;
 }
-
-.home .name {
+#home .name {
   background-color: white;
   height: 330px;
 }
-
-.home .name h4 {
+#home .name h4 {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
-
-.home .form {
+#home .form {
   text-align: center;
   padding-bottom: 15px;
 }
-
-.home .form input {
+#home .form input {
   background-color: #e1e1e1;
   color: black;
   width: 95%;
@@ -108,13 +99,11 @@ header ul .icon {
   border: none;
   outline: none;
 }
-
-.home .send {
+#home .send {
   text-align: right;
   padding-top: 20px;
 }
-
-.home .send a {
+#home .send a {
   width: 25%;
   background-color: #353433;
   color: #fefefe;
@@ -126,18 +115,68 @@ header ul .icon {
   text-decoration: none;
   padding: 17px 45px;
 }
-
-.home .send a:hover {
+#home .send a:hover {
   background-color: #f8ca11;
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
-}
-
-body {
-  background-color: #1a1a1a;
+  cursor: pointer;
 }
 
 img {
   width: 100%;
 }
-/*# sourceMappingURL=style.css.map */
+
+#taxi {
+  height: 660px;
+  margin-top: 90px;
+  background-color: #1a1a1a;
+}
+#taxi .textbox {
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+#taxi .textbox h1 {
+  color: white;
+  margin-bottom: 90px;
+}
+#taxi .textbox h1 span {
+  color: #f4db31;
+}
+#taxi .box {
+  background-color: white;
+  height: 380px;
+  width: 350px;
+}
+#taxi .box .iconbox {
+  font-size: 25px;
+  color: white;
+  background: #f8ca11;
+  width: 21%;
+  height: 70px;
+  border-radius: 45px;
+  text-align: center;
+  padding-top: 22px;
+  position: relative;
+  top: -35px;
+  margin: 0 auto;
+}
+#taxi .box h2 {
+  text-align: center;
+  color: #505252;
+  font-size: 24px;
+  padding: 10px 0 20px 0;
+}
+#taxi .box p {
+  text-align: center;
+  color: #6e6e6e;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 0 45px;
+}
+#taxi .box .imagebox img {
+  height: 200px;
+  width: 300px;
+  margin-left: 25px;
+}/*# sourceMappingURL=style.css.map */
