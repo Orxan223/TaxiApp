@@ -191,6 +191,9 @@ img {
   margin: 0 auto;
   margin-bottom: 90px;
 }
+#booking .box h1 span {
+  color: #f4db31;
+}
 #booking .imagebox img {
   height: 265px;
   width: 340px;
@@ -245,4 +248,83 @@ img {
 }
 #booking .textbox2 .btn:hover {
   background: #1f1f1f;
+}
+
+#app {
+  width: 100%;
+}
+#app .imgbox img {
+  height: 600px;
+  width: 1350px;
+}
+#app .imgbox1 img {
+  margin-top: 90px;
+  height: 490px;
+  width: 250px;
+}
+#app .textbox h1 {
+  margin-top: 100px;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+#app .textbox h2 {
+  color: white;
+  font-size: 50px;
+}
+
+#footer {
+  background-color: #1a1a1a;
+  margin-top: 90px;
+}
+#footer .textbox {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#footer .textbox h1 {
+  font-size: 28px;
+  padding: 25px 0;
+  color: white;
+}
+#footer .textbox p {
+  font-size: 15px;
+  color: white;
+  padding-right: 30px;
+  line-height: 24px;
+  color: #cbcbcb;
+  letter-spacing: 0.5px;
+}
+#footer .textbox ul li .icon {
+  padding-bottom: 14px;
+  color: red;
+}
+#footer .textbox ul li .icon i {
+  font-size: 10px;
+  padding-right: 10px;
+}
+#footer .textbox .box .icon {
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+#footer .textbox .box .icon i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+#footer .textbox input {
+  padding: 15px 25px;
+}
+#footer .textbox .button {
+  margin-top: 40px;
+}
+#footer .textbox .button a {
+  background: #f8ca11;
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
+#copyright .textbox h3 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  color: #646464;
 }/*# sourceMappingURL=style.css.map */
